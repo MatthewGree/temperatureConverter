@@ -22,8 +22,10 @@ public class CelciusTemperature extends AbstractTemperature {
 
 	/**
 	 * Method that converts temperature.
+	 *
 	 * @return temperature in Fahrenheits
 	 */
+
 	public float convert() {
 		return (32 + (float) 9 / 5 * temp);
 	}
